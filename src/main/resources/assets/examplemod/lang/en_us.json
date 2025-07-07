@@ -7,6 +7,8 @@
   "block.examplemod.bismuth_ore": "Bismuth Ore",
   "block.examplemod.bismuth_deepslate_ore": "Bismuth Deepslate Ore",
 
+  "block.examplemod.magic_block": "Magic Block",
+
   "creativetab.examplemod.bismuth_items": "Bismuth Items",
   "creativetab.examplemod.bismuth_blocks": "Bismuth Blocks"
 }
