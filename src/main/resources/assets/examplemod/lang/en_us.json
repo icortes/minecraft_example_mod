@@ -4,6 +4,7 @@
 
   "block.examplemod.bismuth_block": "Block of Bismuth",
   "block.examplemod.bismuth_ore": "Bismuth Ore",
+  "block.examplemod.bismuth_deepslate_ore": "Bismuth Deepslate Ore",
 
   "creativetab.examplemod.bismuth_items": "Bismuth Items",
   "creativetab.examplemod.bismuth_blocks": "Bismuth Blocks"
