@@ -24,6 +24,7 @@ public class ModCreativeModeTabs {
                                      // Add items to the creative tab
                                     output.accept(ModItems.BISMUTH);
                                     output.accept(ModItems.RAW_BISMUTH);
+                                    output.accept(ModItems.CHISEL);
                     })
                     .build());
 
