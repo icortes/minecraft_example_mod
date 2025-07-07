@@ -2,6 +2,7 @@ package com.omgisa.examplemod;
 
 import com.mojang.logging.LogUtils;
 import com.omgisa.examplemod.block.ModBlocks;
+import com.omgisa.examplemod.item.ModCreativeModeTabs;
 import com.omgisa.examplemod.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.neoforged.api.distmarker.Dist;
@@ -38,6 +39,9 @@ public class ExampleMod {
         // Note that this is necessary if and only if we want *this* class (ExampleMod) to respond directly to events.
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
         NeoForge.EVENT_BUS.register(this);
+
+        // Register the creative mode tabs
+        ModCreativeModeTabs.register(modEventBus);
 
         // Register the items
         ModItems.register(modEventBus);
