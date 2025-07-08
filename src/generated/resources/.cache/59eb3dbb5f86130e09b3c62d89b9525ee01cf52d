@@ -1,10 +1,11 @@
-// 1.21.1	2025-07-07T22:33:12.4253894	Loot Tables
+// 1.21.1	2025-07-08T13:39:35.4091904	Loot Tables
 03b7b52672965f4efe0978334de07a8603baabd9 data/examplemod/loot_table/blocks/bismuth_block.json
 90f9faf479169b8166b137f8ccf76a9b1bdd46c3 data/examplemod/loot_table/blocks/bismuth_button.json
 cb97595f75e916d8f96e4498015d03ee94e37bd5 data/examplemod/loot_table/blocks/bismuth_deepslate_ore.json
 99639b2693a2ea7339a58a425fc7d400f3567b33 data/examplemod/loot_table/blocks/bismuth_door.json
 e090e3f2dafe184d60ecac52a3c5f7b6350c71b5 data/examplemod/loot_table/blocks/bismuth_fence.json
 1845929d198948e8dde5524d4e9654c3c6f57d49 data/examplemod/loot_table/blocks/bismuth_fence_gate.json
+01a601ee5bcaedd9f1016e7b33e486a5e7d49a5b data/examplemod/loot_table/blocks/bismuth_lamp.json
 af5b34f570ba562d2c6394807d7a6ef7f05e91fc data/examplemod/loot_table/blocks/bismuth_ore.json
 23bb3ac9810263cdc9380d9b8262b07ef3ead336 data/examplemod/loot_table/blocks/bismuth_pressure_plate.json
 8d60eb64902df396c7d04c48da42477510a887e6 data/examplemod/loot_table/blocks/bismuth_slab.json

@@ -1,6 +1,7 @@
 package com.omgisa.examplemod.block;
 
 import com.omgisa.examplemod.ExampleMod;
+import com.omgisa.examplemod.block.custom.BismuthLampBlock;
 import com.omgisa.examplemod.block.custom.MagicBlock;
 import com.omgisa.examplemod.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
@@ -50,6 +51,8 @@ public class ModBlocks {
                                                                                                  () -> new PressurePlateBlock(BlockSetType.IRON, BlockBehaviour.Properties.of().strength(2F).requiresCorrectToolForDrops()));
     public static final DeferredBlock<ButtonBlock> BISMUTH_BUTTON = registerBlock("bismuth_button",
                                                                                   () -> new ButtonBlock(BlockSetType.IRON, 20, BlockBehaviour.Properties.of().strength(2F).requiresCorrectToolForDrops().noCollission()));
+    public static final DeferredBlock<Block> BISMUTH_LAMP = registerBlock("bismuth_lamp",
+                                                                          () -> new BismuthLampBlock(BlockBehaviour.Properties.of().strength(2F).requiresCorrectToolForDrops().lightLevel(state -> state.getValue(BismuthLampBlock.CLICKED) ? 15 : 0)));
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);

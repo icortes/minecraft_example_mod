@@ -1,10 +1,11 @@
-// 1.21.1	2025-07-07T22:38:57.40687	Block States: examplemod
+// 1.21.1	2025-07-08T13:50:22.8002154	Block States: examplemod
 489238cc233b14679e40d0be34f9a79939b2eddc assets/examplemod/blockstates/bismuth_block.json
 66b7979b5701ab0642cf00b7cab7f2d9043aaded assets/examplemod/blockstates/bismuth_button.json
 508a42fe8d464cc4cf508c60dd326d244effe3b7 assets/examplemod/blockstates/bismuth_deepslate_ore.json
 3ce069f7cde8d585d8c49ea6b50e0c675504f89d assets/examplemod/blockstates/bismuth_door.json
 98c314c332e9fe8abcdf7a51d9d1238eb5afa21e assets/examplemod/blockstates/bismuth_fence.json
 5037a8ab5f89005dd4bac75c921e75326c38337c assets/examplemod/blockstates/bismuth_fence_gate.json
+97845ca7de219cf6ebf84a65b7075e17976d34af assets/examplemod/blockstates/bismuth_lamp.json
 39842bc84ecdc89c38499594016037341a0eb566 assets/examplemod/blockstates/bismuth_ore.json
 cc15dcce18f89412f2b803b60f238be9f2971ead assets/examplemod/blockstates/bismuth_pressure_plate.json
 60686d285d42a5b2174fcd4e4377eb6db8a1c280 assets/examplemod/blockstates/bismuth_slab.json
@@ -30,6 +31,8 @@ e19ebf234202a475a50ef333740833455adc27c5 assets/examplemod/models/block/bismuth_
 577c7d0e5c02440560112c0e09fd2552712aeade assets/examplemod/models/block/bismuth_fence_gate_wall_open.json
 d0eb91c8e6141f62eb359046258947c4a52e96c5 assets/examplemod/models/block/bismuth_fence_post.json
 273863160bde3b09b5ff85fa44a25d630ba00bf9 assets/examplemod/models/block/bismuth_fence_side.json
+11f0fef877b173a54245e56b823e0cbd54f3147d assets/examplemod/models/block/bismuth_lamp_off.json
+8aef3f423a519001bf581340c28833e99e53cf19 assets/examplemod/models/block/bismuth_lamp_on.json
 fbb843e754152c4d7005bc28fb78685aa2c3a5f7 assets/examplemod/models/block/bismuth_ore.json
 bf180fac28fcf8809fc26b940953b870341795d0 assets/examplemod/models/block/bismuth_pressure_plate.json
 e87e95f2f8c4d16647eb49c70be3be94a8651da1 assets/examplemod/models/block/bismuth_pressure_plate_down.json
@@ -48,6 +51,7 @@ a1625fc5e56717f63467a8040170ff2f01d81154 assets/examplemod/models/block/bismuth_
 a6c2ee01bec241a60f5bdcaf293cecb6cfd87954 assets/examplemod/models/item/bismuth_block.json
 cb5345d050ef6d59f2a5f8ec5b3636f777d345a9 assets/examplemod/models/item/bismuth_deepslate_ore.json
 e6f65a1588068bf5a13e8671273a89505e7afeee assets/examplemod/models/item/bismuth_fence_gate.json
+d46dfc429656819773242c0badfcfa96e75429b2 assets/examplemod/models/item/bismuth_lamp.json
 05ae3b6ea6ab00357d5977ba0e6b95b2f8807c5c assets/examplemod/models/item/bismuth_ore.json
 96c0edfbb2ec50c46a6c6860249e0d6557e59128 assets/examplemod/models/item/bismuth_pressure_plate.json
 a951c2f590516cca74226033460c3a1cc442d68f assets/examplemod/models/item/bismuth_slab.json

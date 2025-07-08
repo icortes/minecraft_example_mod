@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "clicked=false": {
+      "model": "examplemod:block/bismuth_lamp_off"
+    },
+    "clicked=true": {
+      "model": "examplemod:block/bismuth_lamp_on"
+    }
+  }
+}
