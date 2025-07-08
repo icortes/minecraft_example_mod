@@ -13,6 +13,19 @@
 
   "block.examplemod.magic_block": "Magic Block",
 
+  "block.examplemod.bismuth_stairs": "Bismuth Stairs",
+  "block.examplemod.bismuth_slab": "Bismuth Slab",
+
+  "block.examplemod.bismuth_button": "Bismuth Button",
+  "block.examplemod.bismuth_pressure_plate": "Bismuth Pressure Plate",
+
+  "block.examplemod.bismuth_fence": "Bismuth Fence",
+  "block.examplemod.bismuth_fence_gate": "Bismuth Fence Gate",
+  "block.examplemod.bismuth_wall": "Bismuth Wall",
+
+  "block.examplemod.bismuth_door": "Bismuth Door",
+  "block.examplemod.bismuth_trapdoor": "Bismuth Trapdoor",
+
   "creativetab.examplemod.bismuth_items": "Bismuth Items",
   "creativetab.examplemod.bismuth_blocks": "Bismuth Blocks",
 

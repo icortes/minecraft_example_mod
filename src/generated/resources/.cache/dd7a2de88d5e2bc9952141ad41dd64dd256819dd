@@ -1,5 +1,9 @@
-// 1.21.1	2025-07-07T15:57:49.0064829	Item Models: examplemod
+// 1.21.1	2025-07-07T22:33:12.4289007	Item Models: examplemod
 01345df039e3ae16796848b48bf1c4ef6ef9ef4e assets/examplemod/models/item/bismuth.json
+4cc207fb83e748e1a6fcf2005ac723e0c5bce97a assets/examplemod/models/item/bismuth_button.json
+8ebe7322020c0d2da28c9bfb33c926f46af5561d assets/examplemod/models/item/bismuth_door.json
+3440da861e0da0a1c605b1e72e8cca30e0ad579a assets/examplemod/models/item/bismuth_fence.json
+38776e20979c583a23ad973f8c4f5c80ed19497c assets/examplemod/models/item/bismuth_wall.json
 20045cddc870765908347e28ce1e009d78a20300 assets/examplemod/models/item/chisel.json
 aaafe8f427d620f749f025727985159dc1835cb3 assets/examplemod/models/item/frostfire_ice.json
 f347fa84e85b6a9ea883f5f60a32df1389d98dcc assets/examplemod/models/item/radish.json

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "bismuth",
+  "key": {
+    "#": {
+      "item": "examplemod:bismuth"
+    }
+  },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "result": {
+    "count": 4,
+    "id": "examplemod:bismuth_stairs"
+  }
+}

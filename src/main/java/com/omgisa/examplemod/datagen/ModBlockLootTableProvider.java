@@ -35,15 +35,31 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
             block -> createOreDrop(ModBlocks.BISMUTH_ORE.get(), ModItems.RAW_BISMUTH.get()));
         add(ModBlocks.BISMUTH_DEEPSLATE_ORE.get(),
             block -> createMultipleOreDrops(ModBlocks.BISMUTH_DEEPSLATE_ORE.get(), ModItems.RAW_BISMUTH.get(), 2.0F, 5.0F));
+
+        dropSelf(ModBlocks.BISMUTH_STAIRS.get());
+        add(ModBlocks.BISMUTH_SLAB.get(),
+            block -> createSlabItemTable(ModBlocks.BISMUTH_SLAB.get()));
+
+        dropSelf(ModBlocks.BISMUTH_PRESSURE_PLATE.get());
+        dropSelf(ModBlocks.BISMUTH_BUTTON.get());
+
+        dropSelf(ModBlocks.BISMUTH_FENCE.get());
+        dropSelf(ModBlocks.BISMUTH_FENCE_GATE.get());
+        dropSelf(ModBlocks.BISMUTH_WALL.get());
+        dropSelf(ModBlocks.BISMUTH_DOOR.get());
+        dropSelf(ModBlocks.BISMUTH_TRAPDOOR.get());
+
+        add(ModBlocks.BISMUTH_DOOR.get(),
+            block -> createDoorTable(ModBlocks.BISMUTH_DOOR.get()));
     }
 
     /**
      * Creates a loot table for blocks that drop multiple items, with support for Fortune enchantment.
      *
-     * @param pBlock    The block to define the loot table for.
-     * @param item      The item to drop.
-     * @param minDrops  The minimum number of items to drop.
-     * @param maxDrops  The maximum number of items to drop.
+     * @param pBlock   The block to define the loot table for.
+     * @param item     The item to drop.
+     * @param minDrops The minimum number of items to drop.
+     * @param maxDrops The maximum number of items to drop.
      * @return A `LootTable.Builder` defining the loot behavior for the block.
      */
     protected LootTable.Builder createMultipleOreDrops(Block pBlock, Item item, float minDrops, float maxDrops) {

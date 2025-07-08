@@ -1,3 +1,6 @@
-// 1.21.1	2025-07-07T18:57:14.9103179	Tags for minecraft:block mod id examplemod
+// 1.21.1	2025-07-07T22:33:12.4314125	Tags for minecraft:block mod id examplemod
+6e75a457d6baf27a0d80270a51ecf3651636239e data/minecraft/tags/block/fences.json
+d26328e67ddee8522f73c6dd40a6490b4877419e data/minecraft/tags/block/fence_gates.json
 cead6e768e53cd9d81a02f3497e0fb28efce17b9 data/minecraft/tags/block/mineable/pickaxe.json
 f8edea4b34b26cdfc2b619fa645e1a5aa9a86fa1 data/minecraft/tags/block/needs_iron_tool.json
+379ab2cfdaf133bbb669f36295a94ab9f71417d8 data/minecraft/tags/block/walls.json
