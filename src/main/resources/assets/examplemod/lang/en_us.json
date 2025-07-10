@@ -7,6 +7,12 @@
   "item.examplemod.frostfire_ice": "Frostfire Ice",
   "item.examplemod.starlight_ashes": "Starlight Ashes",
 
+  "item.examplemod.bismuth_sword": "Bismuth Sword",
+  "item.examplemod.bismuth_pickaxe": "Bismuth Pickaxe",
+  "item.examplemod.bismuth_axe": "Bismuth Axe",
+  "item.examplemod.bismuth_shovel": "Bismuth Shovel",
+  "item.examplemod.bismuth_hoe": "Bismuth Hoe",
+
   "block.examplemod.bismuth_block": "Block of Bismuth",
   "block.examplemod.bismuth_ore": "Bismuth Ore",
   "block.examplemod.bismuth_deepslate_ore": "Bismuth Deepslate Ore",
