@@ -4,6 +4,7 @@ import com.omgisa.examplemod.ExampleMod;
 import com.omgisa.examplemod.item.custom.ChiselItem;
 import com.omgisa.examplemod.item.custom.FuelItem;
 import com.omgisa.examplemod.item.custom.HammerItem;
+import com.omgisa.examplemod.item.custom.ModArmorItem;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.*;
 import net.neoforged.bus.api.IEventBus;
@@ -50,7 +51,7 @@ public class ModItems {
                                                                                  () -> new HammerItem(ModToolTiers.BISMUTH, new Item.Properties().attributes(PickaxeItem.createAttributes(ModToolTiers.BISMUTH, 7.0F, -3.5F))));
 
     public static final DeferredItem<ArmorItem> BISMUTH_HELMET = ITEMS.register("bismuth_helmet",
-                                                                                () -> new ArmorItem(ModArmorMaterials.BISMUTH_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(19))));
+                                                                                () -> new ModArmorItem(ModArmorMaterials.BISMUTH_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(19))));
     public static final DeferredItem<ArmorItem> BISMUTH_CHESTPLATE = ITEMS.register("bismuth_chestplate",
                                                                                     () -> new ArmorItem(ModArmorMaterials.BISMUTH_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Properties().durability(ArmorItem.Type.CHESTPLATE.getDurability(26))));
     public static final DeferredItem<ArmorItem> BISMUTH_LEGGINGS = ITEMS.register("bismuth_leggings",
