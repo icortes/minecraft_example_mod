@@ -36,6 +36,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         handheldItem(ModItems.BISMUTH_SHOVEL.get());
         handheldItem(ModItems.BISMUTH_AXE.get());
         handheldItem(ModItems.BISMUTH_HOE.get());
+        handheldItem(ModItems.BISMUTH_HAMMER.get());
     }
 
 

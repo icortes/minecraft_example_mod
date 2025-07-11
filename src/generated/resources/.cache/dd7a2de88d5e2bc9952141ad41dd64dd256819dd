@@ -1,9 +1,10 @@
-// 1.21.1	2025-07-09T20:08:04.0327697	Item Models: examplemod
+// 1.21.1	2025-07-10T17:39:13.8463836	Item Models: examplemod
 01345df039e3ae16796848b48bf1c4ef6ef9ef4e assets/examplemod/models/item/bismuth.json
 024ca2454650bce30ea6f0356a8f281a248e72c1 assets/examplemod/models/item/bismuth_axe.json
 4cc207fb83e748e1a6fcf2005ac723e0c5bce97a assets/examplemod/models/item/bismuth_button.json
 8ebe7322020c0d2da28c9bfb33c926f46af5561d assets/examplemod/models/item/bismuth_door.json
 3440da861e0da0a1c605b1e72e8cca30e0ad579a assets/examplemod/models/item/bismuth_fence.json
+5297bdb84d4bfc592a06700abb8c01d4a124d236 assets/examplemod/models/item/bismuth_hammer.json
 a9923aeaae12e7eec36cf016f497e9e41161779b assets/examplemod/models/item/bismuth_hoe.json
 aea590aa76855560c347141f4fd4b010ff074778 assets/examplemod/models/item/bismuth_pickaxe.json
 2fc78898b545f00fc66178d995c2b441f4c2bbbf assets/examplemod/models/item/bismuth_shovel.json
