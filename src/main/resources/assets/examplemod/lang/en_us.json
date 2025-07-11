@@ -14,6 +14,11 @@
   "item.examplemod.bismuth_hoe": "Bismuth Hoe",
   "item.examplemod.bismuth_hammer": "Bismuth Hammer",
 
+  "item.examplemod.bismuth_helmet": "Bismuth Helmet",
+  "item.examplemod.bismuth_chestplate": "Bismuth Chestplate",
+  "item.examplemod.bismuth_leggings": "Bismuth Leggings",
+  "item.examplemod.bismuth_boots": "Bismuth Boots",
+
   "block.examplemod.bismuth_block": "Block of Bismuth",
   "block.examplemod.bismuth_ore": "Bismuth Ore",
   "block.examplemod.bismuth_deepslate_ore": "Bismuth Deepslate Ore",
