@@ -1,4 +1,4 @@
-// 1.21.1	2025-07-10T18:53:38.8581099	Item Models: examplemod
+// 1.21.1	2025-07-11T14:35:09.453054	Item Models: examplemod
 01345df039e3ae16796848b48bf1c4ef6ef9ef4e assets/examplemod/models/item/bismuth.json
 024ca2454650bce30ea6f0356a8f281a248e72c1 assets/examplemod/models/item/bismuth_axe.json
 1097cd708c3ea614ace8d5052c3c47e7b9cd1451 assets/examplemod/models/item/bismuth_boots.json
@@ -39,6 +39,7 @@ c64f1b59207ac579f74fc6f0d240b0547bc660ab assets/examplemod/models/item/bismuth_h
 b9bfa0f71a535d34f95f879984faa343fe6804e2 assets/examplemod/models/item/bismuth_helmet_quartz_trim.json
 a19f9c3c33f4de56d0c2c01f3b4f307ada4dbd38 assets/examplemod/models/item/bismuth_helmet_redstone_trim.json
 a9923aeaae12e7eec36cf016f497e9e41161779b assets/examplemod/models/item/bismuth_hoe.json
+de0f427913b1af67fb0727bc16b12cdd4c70eaf5 assets/examplemod/models/item/bismuth_horse_armor.json
 03e782d1811e15fd89d661416cb41914f599c10e assets/examplemod/models/item/bismuth_leggings.json
 466667e71e0581a4a3edc7ebda7dfc0a8eca8e20 assets/examplemod/models/item/bismuth_leggings_amethyst_trim.json
 2044d1a183c8190c53d2b911877cde78cad06fbf assets/examplemod/models/item/bismuth_leggings_copper_trim.json
