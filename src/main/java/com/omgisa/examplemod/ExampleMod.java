@@ -5,6 +5,7 @@ import com.omgisa.examplemod.block.ModBlocks;
 import com.omgisa.examplemod.component.ModDataComponents;
 import com.omgisa.examplemod.item.ModCreativeModeTabs;
 import com.omgisa.examplemod.item.ModItems;
+import com.omgisa.examplemod.util.ModItemProperties;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.IEventBus;
@@ -87,7 +88,7 @@ public class ExampleMod {
     public static class ClientModEvents {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
-
+            ModItemProperties.addCustomItemProperties();
         }
     }
 }

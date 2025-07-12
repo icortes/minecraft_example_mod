@@ -8,6 +8,7 @@ import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.packs.PackType;
 import net.minecraft.world.item.ArmorItem;
+import net.minecraft.world.item.Item;
 import net.minecraft.world.item.armortrim.TrimMaterial;
 import net.minecraft.world.item.armortrim.TrimMaterials;
 import net.minecraft.world.level.block.Block;
@@ -47,7 +48,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.RADISH.get());
         basicItem(ModItems.FROSTFIRE_ICE.get());
         basicItem(ModItems.STARLIGHT_ASHES.get());
-        basicItem(ModItems.CHISEL.get());
+        chiselItem(ModItems.CHISEL);
 
         buttonItem(ModBlocks.BISMUTH_BUTTON, ModBlocks.BISMUTH_BLOCK);
         fenceItem(ModBlocks.BISMUTH_FENCE, ModBlocks.BISMUTH_BLOCK);
@@ -122,6 +123,19 @@ public class ModItemModelProvider extends ItemModelProvider {
         }
     }
 
+    private void chiselItem(DeferredItem<Item> item) {
+        // Chisel Item
+        this.withExistingParent(item.getId().getPath(), mcLoc("item/generated"))
+            .texture("layer0", ResourceLocation.fromNamespaceAndPath(ExampleMod.MOD_ID, "item/chisel"))
+            .override()
+            .model(new ModelFile.UncheckedModelFile(modLoc("item/chisel_used")))
+            .predicate(modLoc("used"), 1F)
+            .end();
+
+        // Chisel Used
+        this.withExistingParent("chisel_used", mcLoc("item/generated"))
+            .texture("layer0", ResourceLocation.fromNamespaceAndPath(ExampleMod.MOD_ID, "item/chisel_used"));
+    }
 
     /**
      * Generates an item model for a button block.

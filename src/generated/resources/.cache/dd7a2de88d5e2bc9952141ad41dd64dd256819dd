@@ -1,4 +1,4 @@
-// 1.21.1	2025-07-12T12:42:39.0645128	Item Models: examplemod
+// 1.21.1	2025-07-12T13:46:47.8061943	Item Models: examplemod
 01345df039e3ae16796848b48bf1c4ef6ef9ef4e assets/examplemod/models/item/bismuth.json
 024ca2454650bce30ea6f0356a8f281a248e72c1 assets/examplemod/models/item/bismuth_axe.json
 1097cd708c3ea614ace8d5052c3c47e7b9cd1451 assets/examplemod/models/item/bismuth_boots.json
@@ -55,7 +55,8 @@ aea590aa76855560c347141f4fd4b010ff074778 assets/examplemod/models/item/bismuth_p
 2fc78898b545f00fc66178d995c2b441f4c2bbbf assets/examplemod/models/item/bismuth_shovel.json
 f9ee21d73d3836ff067f7e48350bf44d8132b869 assets/examplemod/models/item/bismuth_sword.json
 38776e20979c583a23ad973f8c4f5c80ed19497c assets/examplemod/models/item/bismuth_wall.json
-20045cddc870765908347e28ce1e009d78a20300 assets/examplemod/models/item/chisel.json
+8f7a57c36c5d7632811bd9690b1e20a6cb9da6d4 assets/examplemod/models/item/chisel.json
+6df3ca80a8e9d2a3f3a6bc2d7910c61fd2696b2b assets/examplemod/models/item/chisel_used.json
 aaafe8f427d620f749f025727985159dc1835cb3 assets/examplemod/models/item/frostfire_ice.json
 c4505fcfc8b447bca4269e9e0c2cba4c8c30cf5d assets/examplemod/models/item/kaupen_armor_trim_smithing_template.json
 f347fa84e85b6a9ea883f5f60a32df1389d98dcc assets/examplemod/models/item/radish.json
