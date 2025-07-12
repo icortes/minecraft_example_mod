@@ -20,6 +20,7 @@
   "item.examplemod.bismuth_boots": "Bismuth Boots",
 
   "item.examplemod.bismuth_horse_armor": "Bismuth Horse Armor",
+  "item.examplemod.kaupen_armor_trim_smithing_template": "Kaupen Armor Trim Template",
 
   "block.examplemod.bismuth_block": "Block of Bismuth",
   "block.examplemod.bismuth_ore": "Bismuth Ore",
@@ -48,5 +49,8 @@
 
   "tooltip.examplemod.chisel.shift_down": "This item can chisel Blocks into Bricks",
   "tooltip.examplemod.chisel": "Press §eShift§r for more Information",
-  "tooltip.examplemod.radish.tooltip": "Radishes are a healthy snack!"
+  "tooltip.examplemod.radish.tooltip": "Radishes are a healthy snack!",
+
+  "trim_pattern.examplemod.kaupen": "Kaupen Armor Trim",
+  "trim_pattern.examplemod.bismuth": "Bismuth Material"
 }
