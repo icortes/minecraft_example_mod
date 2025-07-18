@@ -5,6 +5,7 @@ import com.omgisa.examplemod.block.ModBlocks;
 import com.omgisa.examplemod.component.ModDataComponents;
 import com.omgisa.examplemod.item.ModCreativeModeTabs;
 import com.omgisa.examplemod.item.ModItems;
+import com.omgisa.examplemod.sound.ModSounds;
 import com.omgisa.examplemod.util.ModItemProperties;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.neoforged.api.distmarker.Dist;
@@ -52,6 +53,9 @@ public class ExampleMod {
 
         // Register the data components
         ModDataComponents.register(modEventBus);
+
+        // Register the sounds
+        ModSounds.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);

@@ -2,10 +2,10 @@ package com.omgisa.examplemod.item.custom;
 
 import com.omgisa.examplemod.block.ModBlocks;
 import com.omgisa.examplemod.component.ModDataComponents;
+import com.omgisa.examplemod.sound.ModSounds;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.network.chat.Component;
 import net.minecraft.server.level.ServerLevel;
-import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.entity.EquipmentSlot;
@@ -49,7 +49,7 @@ public class ChiselItem extends Item {
                 context.getItemInHand().hurtAndBreak(1, ((ServerLevel) level), context.getPlayer(),
                                                      item -> Objects.requireNonNull(context.getPlayer()).onEquippedItemBroken(item, EquipmentSlot.MAINHAND));
 
-                level.playSound(null, context.getClickedPos(), SoundEvents.GRINDSTONE_USE, SoundSource.BLOCKS);
+                level.playSound(null, context.getClickedPos(), ModSounds.CHISEL_USE.get(), SoundSource.BLOCKS);
 
                 context.getItemInHand().set(ModDataComponents.COORDINATES, context.getClickedPos());
             }

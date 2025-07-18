@@ -1,0 +1,38 @@
+{
+  "chisel_use": {
+    "subtitle": "sounds.examplemod.chisel_use",
+    "sounds": [
+      "examplemod:chisel_use"
+    ]
+  },
+  "magic_block_break": {
+    "subtitle": "sounds.examplemod.magic_block_break",
+    "sounds": [
+      "examplemod:magic_block_break"
+    ]
+  },
+  "magic_block_step": {
+    "subtitle": "sounds.examplemod.magic_block_step",
+    "sounds": [
+      "examplemod:magic_block_step"
+    ]
+  },
+  "magic_block_place": {
+    "subtitle": "sounds.examplemod.magic_block_place",
+    "sounds": [
+      "examplemod:magic_block_place"
+    ]
+  },
+  "magic_block_hit": {
+    "subtitle": "sounds.examplemod.magic_block_hit",
+    "sounds": [
+      "examplemod:magic_block_hit"
+    ]
+  },
+  "magic_block_fall": {
+    "subtitle": "sounds.examplemod.magic_block_fall",
+    "sounds": [
+      "examplemod:magic_block_fall"
+    ]
+  }
+}

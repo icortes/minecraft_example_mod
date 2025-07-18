@@ -4,6 +4,7 @@ import com.omgisa.examplemod.ExampleMod;
 import com.omgisa.examplemod.block.custom.BismuthLampBlock;
 import com.omgisa.examplemod.block.custom.MagicBlock;
 import com.omgisa.examplemod.item.ModItems;
+import com.omgisa.examplemod.sound.ModSounds;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -44,7 +45,7 @@ public class ModBlocks {
                                                                                    () -> new DropExperienceBlock(UniformInt.of(3, 6),
                                                                                                                  BlockBehaviour.Properties.of().strength(4F).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
     public static final DeferredBlock<Block> MAGIC_BLOCK = registerBlock("magic_block",
-                                                                         () -> new MagicBlock(BlockBehaviour.Properties.of().strength(2F).requiresCorrectToolForDrops()));
+                                                                         () -> new MagicBlock(BlockBehaviour.Properties.of().strength(2F).noLootTable().sound(ModSounds.MAGIC_BLOCK_SOUNDS)));
     public static final DeferredBlock<SlabBlock> BISMUTH_SLAB = registerBlock("bismuth_slab",
                                                                               () -> new SlabBlock(BlockBehaviour.Properties.of().strength(2F).requiresCorrectToolForDrops()));
     public static final DeferredBlock<PressurePlateBlock> BISMUTH_PRESSURE_PLATE = registerBlock("bismuth_pressure_plate",
