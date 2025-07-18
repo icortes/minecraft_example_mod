@@ -45,7 +45,7 @@ public class ModBlocks {
                                                                                    () -> new DropExperienceBlock(UniformInt.of(3, 6),
                                                                                                                  BlockBehaviour.Properties.of().strength(4F).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
     public static final DeferredBlock<Block> MAGIC_BLOCK = registerBlock("magic_block",
-                                                                         () -> new MagicBlock(BlockBehaviour.Properties.of().strength(2F).noLootTable().sound(ModSounds.MAGIC_BLOCK_SOUNDS)));
+                                                                         () -> new MagicBlock(BlockBehaviour.Properties.of().strength(2F).requiresCorrectToolForDrops().sound(ModSounds.MAGIC_BLOCK_SOUNDS)));
     public static final DeferredBlock<SlabBlock> BISMUTH_SLAB = registerBlock("bismuth_slab",
                                                                               () -> new SlabBlock(BlockBehaviour.Properties.of().strength(2F).requiresCorrectToolForDrops()));
     public static final DeferredBlock<PressurePlateBlock> BISMUTH_PRESSURE_PLATE = registerBlock("bismuth_pressure_plate",

@@ -24,6 +24,9 @@
 
   "item.examplemod.kaupen_bow": "Kaupen Bow",
 
+  "item.examplemod.bar_brawl_music_disc": "Bar Brawl Music Disc",
+  "item.examplemod.bar_brawl_music_disc.desc": "Bryan Tech - Bar Brawl (CCO)",
+
   "block.examplemod.bismuth_block": "Block of Bismuth",
   "block.examplemod.bismuth_ore": "Bismuth Ore",
   "block.examplemod.bismuth_deepslate_ore": "Bismuth Deepslate Ore",

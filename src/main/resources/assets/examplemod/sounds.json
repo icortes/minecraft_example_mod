@@ -34,5 +34,13 @@
     "sounds": [
       "examplemod:magic_block_fall"
     ]
+  },
+  "bar_brawl": {
+    "sounds": [
+      {
+        "name": "examplemod:bar_brawl",
+        "stream": true
+      }
+    ]
   }
 }
