@@ -3,6 +3,7 @@ package com.omgisa.examplemod;
 import com.mojang.logging.LogUtils;
 import com.omgisa.examplemod.block.ModBlocks;
 import com.omgisa.examplemod.component.ModDataComponents;
+import com.omgisa.examplemod.effect.ModEffects;
 import com.omgisa.examplemod.item.ModCreativeModeTabs;
 import com.omgisa.examplemod.item.ModItems;
 import com.omgisa.examplemod.sound.ModSounds;
@@ -53,6 +54,9 @@ public class ExampleMod {
 
         // Register the data components
         ModDataComponents.register(modEventBus);
+
+        // Register the effects
+        ModEffects.register(modEventBus);
 
         // Register the sounds
         ModSounds.register(modEventBus);

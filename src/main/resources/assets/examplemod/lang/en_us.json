@@ -50,6 +50,8 @@
   "creativetab.examplemod.bismuth_items": "Bismuth Items",
   "creativetab.examplemod.bismuth_blocks": "Bismuth Blocks",
 
+  "effect.examplemod.slimey": "Slimey",
+
   "tooltip.examplemod.magic_block.tooltip": "This block is very §9MAGICAL§r!",
 
   "tooltip.examplemod.chisel.shift_down": "This item can chisel Blocks into Bricks",
