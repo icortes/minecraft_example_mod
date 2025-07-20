@@ -4,6 +4,7 @@ import com.mojang.logging.LogUtils;
 import com.omgisa.examplemod.block.ModBlocks;
 import com.omgisa.examplemod.component.ModDataComponents;
 import com.omgisa.examplemod.effect.ModEffects;
+import com.omgisa.examplemod.enchantment.ModEnchantmentEffects;
 import com.omgisa.examplemod.item.ModCreativeModeTabs;
 import com.omgisa.examplemod.item.ModItems;
 import com.omgisa.examplemod.potion.ModPotions;
@@ -64,6 +65,9 @@ public class ExampleMod {
 
         // Register the sounds
         ModSounds.register(modEventBus);
+
+        // Register the entity enchantment effects
+        ModEnchantmentEffects.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);

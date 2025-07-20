@@ -63,6 +63,8 @@
   "painting.examplemod.saw_them.title": "Saw Them",
   "painting.examplemod.saw_them.author": "Nano Attack",
 
+  "enchantment.examplemod.lightning_striker": "Lightning Striker",
+
   "tooltip.examplemod.magic_block.tooltip": "This block is very §9MAGICAL§r!",
 
   "tooltip.examplemod.chisel.shift_down": "This item can chisel Blocks into Bricks",
