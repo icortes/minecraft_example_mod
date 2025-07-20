@@ -6,6 +6,7 @@ import com.omgisa.examplemod.component.ModDataComponents;
 import com.omgisa.examplemod.effect.ModEffects;
 import com.omgisa.examplemod.item.ModCreativeModeTabs;
 import com.omgisa.examplemod.item.ModItems;
+import com.omgisa.examplemod.potion.ModPotions;
 import com.omgisa.examplemod.sound.ModSounds;
 import com.omgisa.examplemod.util.ModItemProperties;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -57,6 +58,9 @@ public class ExampleMod {
 
         // Register the effects
         ModEffects.register(modEventBus);
+
+        // Register the potions
+        ModPotions.register(modEventBus);
 
         // Register the sounds
         ModSounds.register(modEventBus);
