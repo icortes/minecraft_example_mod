@@ -56,6 +56,13 @@
 
   "effect.examplemod.slimey": "Slimey",
 
+  "painting.examplemod.world.title": "World",
+  "painting.examplemod.world.author": "Nano Attack",
+  "painting.examplemod.shrimp.title": "Shrimp",
+  "painting.examplemod.shrimp.author": "Nano Attack",
+  "painting.examplemod.saw_them.title": "Saw Them",
+  "painting.examplemod.saw_them.author": "Nano Attack",
+
   "tooltip.examplemod.magic_block.tooltip": "This block is very §9MAGICAL§r!",
 
   "tooltip.examplemod.chisel.shift_down": "This item can chisel Blocks into Bricks",
