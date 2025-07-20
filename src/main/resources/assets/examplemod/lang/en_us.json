@@ -31,6 +31,8 @@
   "item.minecraft.splash_potion.effect.slimey_potion": "Slimey Splash Potion",
   "item.minecraft.lingering_potion.effect.slimey_potion": "Slimey Lingering Potion",
 
+  "item.examplemod.radish_seeds": "Radish Seeds",
+
   "block.examplemod.bismuth_block": "Block of Bismuth",
   "block.examplemod.bismuth_ore": "Bismuth Ore",
   "block.examplemod.bismuth_deepslate_ore": "Bismuth Deepslate Ore",
@@ -49,7 +51,10 @@
 
   "block.examplemod.bismuth_door": "Bismuth Door",
   "block.examplemod.bismuth_trapdoor": "Bismuth Trapdoor",
+
   "block.examplemod.bismuth_lamp": "Bismuth Lamp",
+
+  "block.examplemod.radish_crop": "Radish Crop",
 
   "creativetab.examplemod.bismuth_items": "Bismuth Items",
   "creativetab.examplemod.bismuth_blocks": "Bismuth Blocks",

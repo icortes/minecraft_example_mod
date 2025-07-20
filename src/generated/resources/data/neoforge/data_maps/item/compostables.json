@@ -1,0 +1,10 @@
+{
+  "values": {
+    "examplemod:radish": {
+      "chance": 0.45
+    },
+    "examplemod:radish_seeds": {
+      "chance": 0.25
+    }
+  }
+}

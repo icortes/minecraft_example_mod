@@ -1,6 +1,7 @@
 package com.omgisa.examplemod.item;
 
 import com.omgisa.examplemod.ExampleMod;
+import com.omgisa.examplemod.block.ModBlocks;
 import com.omgisa.examplemod.item.custom.ChiselItem;
 import com.omgisa.examplemod.item.custom.FuelItem;
 import com.omgisa.examplemod.item.custom.HammerItem;
@@ -72,6 +73,9 @@ public class ModItems {
 
     public static final DeferredItem<Item> BAR_BRAWL_MUSIC_DISC =
             ITEMS.register("bar_brawl_music_disc", () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.BAR_BRAWL_KEY).stacksTo(1)));
+
+    public static final DeferredItem<Item> RADISH_SEEDS =
+            ITEMS.register("radish_seeds", () -> new ItemNameBlockItem(ModBlocks.RADISH_CROP.get(), new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

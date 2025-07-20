@@ -1,4 +1,4 @@
-// 1.21.1	2025-07-08T13:50:22.8002154	Block States: examplemod
+// 1.21.1	2025-07-20T14:59:30.5021492	Block States: examplemod
 489238cc233b14679e40d0be34f9a79939b2eddc assets/examplemod/blockstates/bismuth_block.json
 66b7979b5701ab0642cf00b7cab7f2d9043aaded assets/examplemod/blockstates/bismuth_button.json
 508a42fe8d464cc4cf508c60dd326d244effe3b7 assets/examplemod/blockstates/bismuth_deepslate_ore.json
@@ -13,6 +13,7 @@ cb79f2a8c3c58eed825433d6e7b3f06b8437342e assets/examplemod/blockstates/bismuth_s
 475ac7c6efe9894156c94eb66db18096d744f752 assets/examplemod/blockstates/bismuth_trapdoor.json
 da63b8d9edc83ff6a60c0dcf4f3491bf3f4cb91a assets/examplemod/blockstates/bismuth_wall.json
 daee5a96fab483ecb507396bf81edaf010d93a66 assets/examplemod/blockstates/magic_block.json
+e33d7229146ce98eedb65b45f8c65e27bb356068 assets/examplemod/blockstates/radish_crop.json
 090c2ff2d74d3deae43fa8600200e06f5076df60 assets/examplemod/models/block/bismuth_block.json
 8ab4fabc1a42ef8cea98d8f29f927bc6ab996d3a assets/examplemod/models/block/bismuth_button.json
 29d8a435858b66af1c23daba262c23b721b64300 assets/examplemod/models/block/bismuth_button_pressed.json
@@ -48,6 +49,10 @@ a1625fc5e56717f63467a8040170ff2f01d81154 assets/examplemod/models/block/bismuth_
 7cb8247843a2e6e6fd1498b5bd1686cb38e3ae81 assets/examplemod/models/block/bismuth_wall_side.json
 308d14986324dcc588702ed1a9115ef45cabaf9c assets/examplemod/models/block/bismuth_wall_side_tall.json
 16efe3a312bb0d01be5a9fae5a4855778ce4e223 assets/examplemod/models/block/magic_block.json
+c1badc9b98e4f32adc136303e89c1fe56ee74cbf assets/examplemod/models/block/radish_crop_stage0.json
+855cd90c3a46fda9ea671582c999a7d5a1b30894 assets/examplemod/models/block/radish_crop_stage1.json
+a4f6c7dd2b1dbbac76681c5544135c65a8686618 assets/examplemod/models/block/radish_crop_stage2.json
+1d50e3c6b0154ceef60a0b804f80fc63c10a201d assets/examplemod/models/block/radish_crop_stage3.json
 a6c2ee01bec241a60f5bdcaf293cecb6cfd87954 assets/examplemod/models/item/bismuth_block.json
 cb5345d050ef6d59f2a5f8ec5b3636f777d345a9 assets/examplemod/models/item/bismuth_deepslate_ore.json
 e6f65a1588068bf5a13e8671273a89505e7afeee assets/examplemod/models/item/bismuth_fence_gate.json

@@ -3,6 +3,7 @@ package com.omgisa.examplemod.block;
 import com.omgisa.examplemod.ExampleMod;
 import com.omgisa.examplemod.block.custom.BismuthLampBlock;
 import com.omgisa.examplemod.block.custom.MagicBlock;
+import com.omgisa.examplemod.block.custom.RadishCropBlock;
 import com.omgisa.examplemod.item.ModItems;
 import com.omgisa.examplemod.sound.ModSounds;
 import net.minecraft.util.valueproviders.UniformInt;
@@ -54,6 +55,9 @@ public class ModBlocks {
                                                                                   () -> new ButtonBlock(BlockSetType.IRON, 20, BlockBehaviour.Properties.of().strength(2F).requiresCorrectToolForDrops().noCollission()));
     public static final DeferredBlock<Block> BISMUTH_LAMP = registerBlock("bismuth_lamp",
                                                                           () -> new BismuthLampBlock(BlockBehaviour.Properties.of().strength(2F).requiresCorrectToolForDrops().lightLevel(state -> state.getValue(BismuthLampBlock.CLICKED) ? 15 : 0)));
+
+    public static final DeferredBlock<Block> RADISH_CROP = BLOCKS.register("radish_crop",
+                                                                           () -> new RadishCropBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BEETROOTS)));
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);

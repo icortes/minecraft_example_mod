@@ -4,6 +4,7 @@ import com.omgisa.examplemod.item.ModItems;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.neoforged.neoforge.common.data.DataMapProvider;
+import net.neoforged.neoforge.registries.datamaps.builtin.Compostable;
 import net.neoforged.neoforge.registries.datamaps.builtin.FurnaceFuel;
 import net.neoforged.neoforge.registries.datamaps.builtin.NeoForgeDataMaps;
 import org.jetbrains.annotations.NotNull;
@@ -27,7 +28,9 @@ public class ModDataMapProvider extends DataMapProvider {
             .add(ModItems.STARLIGHT_ASHES.getId(), new FurnaceFuel(1200), false)
             .add(ModItems.FROSTFIRE_ICE.getId(), new FurnaceFuel(2400), false);
 
-
+        this.builder(NeoForgeDataMaps.COMPOSTABLES)
+            .add(ModItems.RADISH_SEEDS.getId(), new Compostable(0.25F), false)
+            .add(ModItems.RADISH.getId(), new Compostable(0.45F), false);
 
     }
 }
