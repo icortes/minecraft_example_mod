@@ -3,10 +3,12 @@ package com.omgisa.examplemod.datagen;
 import com.omgisa.examplemod.ExampleMod;
 import com.omgisa.examplemod.block.ModBlocks;
 import com.omgisa.examplemod.block.custom.BismuthLampBlock;
+import com.omgisa.examplemod.block.custom.GojiBerryBushBlock;
 import com.omgisa.examplemod.block.custom.RadishCropBlock;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.block.CropBlock;
+import net.minecraft.world.level.block.SweetBerryBushBlock;
 import net.minecraft.world.level.block.state.BlockState;
 import net.neoforged.neoforge.client.model.generators.BlockStateProvider;
 import net.neoforged.neoforge.client.model.generators.ConfiguredModel;
@@ -53,6 +55,22 @@ public class ModBlockStateProvider extends BlockStateProvider {
         customLamp();
 
         makeCrop((CropBlock) ModBlocks.RADISH_CROP.get(), "radish_crop_stage", "radish_crop_stage");
+        makeBush((SweetBerryBushBlock) ModBlocks.GOJI_BERRY_BUSH.get(), "goji_berry_bush_stage", "goji_berry_bush_stage");
+    }
+
+    public void makeBush(SweetBerryBushBlock block, String modelName, String textureName) {
+        Function<BlockState, ConfiguredModel[]> function = state -> states(state, modelName, textureName);
+
+        getVariantBuilder(block).forAllStates(function);
+    }
+
+    private ConfiguredModel[] states(BlockState state, String modelName, String textureName) {
+        ConfiguredModel[] models = new ConfiguredModel[1];
+        models[0] = new ConfiguredModel(models().cross(modelName + state.getValue(GojiBerryBushBlock.AGE),
+                                                       ResourceLocation.fromNamespaceAndPath(ExampleMod.MOD_ID, "block/" + textureName + state.getValue(GojiBerryBushBlock.AGE)))
+                                                .renderType("cutout"));
+
+        return models;
     }
 
     public void makeCrop(CropBlock block, String modelName, String textureName) {

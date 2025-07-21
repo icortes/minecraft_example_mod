@@ -1,4 +1,4 @@
-// 1.21.1	2025-07-20T14:59:30.5021492	Block States: examplemod
+// 1.21.1	2025-07-21T00:16:23.1937142	Block States: examplemod
 489238cc233b14679e40d0be34f9a79939b2eddc assets/examplemod/blockstates/bismuth_block.json
 66b7979b5701ab0642cf00b7cab7f2d9043aaded assets/examplemod/blockstates/bismuth_button.json
 508a42fe8d464cc4cf508c60dd326d244effe3b7 assets/examplemod/blockstates/bismuth_deepslate_ore.json
@@ -12,6 +12,7 @@ cc15dcce18f89412f2b803b60f238be9f2971ead assets/examplemod/blockstates/bismuth_p
 cb79f2a8c3c58eed825433d6e7b3f06b8437342e assets/examplemod/blockstates/bismuth_stairs.json
 475ac7c6efe9894156c94eb66db18096d744f752 assets/examplemod/blockstates/bismuth_trapdoor.json
 da63b8d9edc83ff6a60c0dcf4f3491bf3f4cb91a assets/examplemod/blockstates/bismuth_wall.json
+59ff85fb5305a4c05a6dc85502f818d58cba0745 assets/examplemod/blockstates/goji_berry_bush.json
 daee5a96fab483ecb507396bf81edaf010d93a66 assets/examplemod/blockstates/magic_block.json
 e33d7229146ce98eedb65b45f8c65e27bb356068 assets/examplemod/blockstates/radish_crop.json
 090c2ff2d74d3deae43fa8600200e06f5076df60 assets/examplemod/models/block/bismuth_block.json
@@ -48,6 +49,10 @@ ea0ed65f4764c5c5571b7b8c832b7bcb44b0cd1a assets/examplemod/models/block/bismuth_
 a1625fc5e56717f63467a8040170ff2f01d81154 assets/examplemod/models/block/bismuth_wall_post.json
 7cb8247843a2e6e6fd1498b5bd1686cb38e3ae81 assets/examplemod/models/block/bismuth_wall_side.json
 308d14986324dcc588702ed1a9115ef45cabaf9c assets/examplemod/models/block/bismuth_wall_side_tall.json
+311d55b12a48da1c6f08bcc2699af91e288d806c assets/examplemod/models/block/goji_berry_bush_stage0.json
+b68efb4963e8a5ea7bcb695d4364cf515ea3bde0 assets/examplemod/models/block/goji_berry_bush_stage1.json
+86db1f347aef1e9487d369fe9fe1cc9bbac787d3 assets/examplemod/models/block/goji_berry_bush_stage2.json
+4f963ca1e96437dc4626ec61461429a431ad8f04 assets/examplemod/models/block/goji_berry_bush_stage3.json
 16efe3a312bb0d01be5a9fae5a4855778ce4e223 assets/examplemod/models/block/magic_block.json
 c1badc9b98e4f32adc136303e89c1fe56ee74cbf assets/examplemod/models/block/radish_crop_stage0.json
 855cd90c3a46fda9ea671582c999a7d5a1b30894 assets/examplemod/models/block/radish_crop_stage1.json
