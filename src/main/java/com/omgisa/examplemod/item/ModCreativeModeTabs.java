@@ -85,6 +85,16 @@ public class ModCreativeModeTabs {
                                                                 output.accept(ModBlocks.BISMUTH_TRAPDOOR);
 
                                                                 output.accept(ModBlocks.BISMUTH_LAMP);
+
+                                                                output.accept(ModBlocks.BLOODWOOD_LOG);
+                                                                output.accept(ModBlocks.BLOODWOOD_WOOD);
+                                                                output.accept(ModBlocks.STRIPPED_BLOODWOOD_LOG);
+                                                                output.accept(ModBlocks.STRIPPED_BLOODWOOD_WOOD);
+
+                                                                output.accept(ModBlocks.BLOODWOOD_PLANKS);
+                                                                output.accept(ModBlocks.BLOODWOOD_SAPLING);
+
+                                                                output.accept(ModBlocks.BLOODWOOD_LEAVES);
                                                             })
                                                             .build());
 

@@ -1,6 +1,7 @@
 package com.omgisa.examplemod.datagen;
 
 import com.omgisa.examplemod.ExampleMod;
+import com.omgisa.examplemod.block.ModBlocks;
 import com.omgisa.examplemod.item.ModItems;
 import com.omgisa.examplemod.util.ModTags;
 import net.minecraft.core.HolderLookup;
@@ -51,6 +52,15 @@ public class ModItemTagProvider extends ItemTagsProvider {
 
         this.tag(ItemTags.TRIM_TEMPLATES)
             .add(ModItems.KAUPEN_SMITHING_TEMPLATE.get());
+
+        this.tag(ItemTags.LOGS_THAT_BURN)
+            .add(ModBlocks.BLOODWOOD_LOG.get().asItem())
+            .add(ModBlocks.BLOODWOOD_WOOD.get().asItem())
+            .add(ModBlocks.STRIPPED_BLOODWOOD_LOG.get().asItem())
+            .add(ModBlocks.STRIPPED_BLOODWOOD_WOOD.get().asItem());
+
+        this.tag(ItemTags.PLANKS)
+            .add(ModBlocks.BLOODWOOD_PLANKS.asItem());
     }
 
 }

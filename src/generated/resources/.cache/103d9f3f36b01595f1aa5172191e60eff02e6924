@@ -1,4 +1,4 @@
-// 1.21.1	2025-07-26T23:02:55.7701051	Registries
+// 1.21.1	2025-07-27T12:23:29.4818322	Registries
 7f7740e97194ac5ff92544b11ce0f951c1f4710c data/examplemod/enchantment/lightning_striker.json
 2b24a5730006e32b4692ef7a353a288270b85715 data/examplemod/neoforge/biome_modifier/add_bismuth_ore.json
 76875d1f32f47f7abfba1666df20fd573868af6e data/examplemod/neoforge/biome_modifier/add_end_bismuth_ore.json
@@ -6,6 +6,7 @@
 17de166d5f5df1bcc0e4dd6f6c90fc3789659981 data/examplemod/trim_material/bismuth.json
 579b7bd1607a8197783de7e10f2401b371184565 data/examplemod/trim_pattern/kaupen.json
 713f7d7a0823862cc6c700721888fa55c35aa445 data/examplemod/worldgen/configured_feature/bismuth_ore.json
+db77e2db72efa747bd3b2621dfdb1bcc40c0b5be data/examplemod/worldgen/configured_feature/bloodwood.json
 688d385f4e521fcaebe672c03f3873ed82b11988 data/examplemod/worldgen/configured_feature/end_bismuth_ore.json
 188fb98ca4c811cfb25241a8c08caf23acb54cea data/examplemod/worldgen/configured_feature/nether_bismuth_ore.json
 b76445510299643a30e8b2ef3318eab9e3410f87 data/examplemod/worldgen/placed_feature/bismuth_ore_placed.json

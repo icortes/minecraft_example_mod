@@ -1,8 +1,10 @@
-// 1.21.1	2025-07-12T12:42:39.0585071	Tags for minecraft:item mod id examplemod
+// 1.21.1	2025-07-27T12:23:29.4733171	Tags for minecraft:item mod id examplemod
 1eecf31bfdcfc9b4d52ddd8e22eae651dd2618b3 data/examplemod/tags/item/transformable_items.json
 d0c5233ef0cb0bacf12e09d994f4e2379ca46bef data/minecraft/tags/item/axes.json
 8c1ccd3d60f249802b8e80e2f26b26c34962daa1 data/minecraft/tags/item/hoes.json
+6652c06fe336bce02484f09db4bc0f1d1bb92725 data/minecraft/tags/item/logs_that_burn.json
 e4059a019e8a0d8d954fff56a14ce1e64ee15b12 data/minecraft/tags/item/pickaxes.json
+e4465c1514ee4cb62ff69664ad4508d1919712c8 data/minecraft/tags/item/planks.json
 6160736fe60d779c86b812fc0d132735e31201c2 data/minecraft/tags/item/shovels.json
 0ff2c5246cf1ad039f54241485766cf653302522 data/minecraft/tags/item/swords.json
 872a3a385b07ae22e24e8a564c70bae54e975e09 data/minecraft/tags/item/trimmable_armor.json

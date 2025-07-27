@@ -61,6 +61,15 @@
   "block.examplemod.radish_crop": "Radish Crop",
   "block.examplemod.goji_berry_bush": "Goji Berry Bush",
 
+  "block.examplemod.bloodwood_log": "Bloodwood Log",
+  "block.examplemod.bloodwood_planks": "Bloodwood Planks",
+  "block.examplemod.bloodwood_wood": "Bloodwood Wood",
+  "block.examplemod.stripped_bloodwood_log": "Stripped Bloodwood Log",
+  "block.examplemod.stripped_bloodwood_wood": "Stripped Bloodwood Wood",
+  "block.examplemod.bloodwood_leaves": "Bloodwood Leaves",
+
+  "block.examplemod.bloodwood_sapling": "Bloodwood Sapling",
+
   "creativetab.examplemod.bismuth_items": "Bismuth Items",
   "creativetab.examplemod.bismuth_blocks": "Bismuth Blocks",
 
