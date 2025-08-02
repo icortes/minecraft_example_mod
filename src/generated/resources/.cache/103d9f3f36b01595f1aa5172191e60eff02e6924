@@ -1,10 +1,11 @@
-// 1.21.1	2025-08-01T19:15:24.5814909	Registries
+// 1.21.1	2025-08-02T14:09:27.2131362	Registries
 7f7740e97194ac5ff92544b11ce0f951c1f4710c data/examplemod/enchantment/lightning_striker.json
 2b24a5730006e32b4692ef7a353a288270b85715 data/examplemod/neoforge/biome_modifier/add_bismuth_ore.json
 76875d1f32f47f7abfba1666df20fd573868af6e data/examplemod/neoforge/biome_modifier/add_end_bismuth_ore.json
 a9e7a4168f4853c7f4de64ee6290f71a3d4ab138 data/examplemod/neoforge/biome_modifier/add_goji_berry_bush.json
 4a2ddb01df751330c08bb5e545a4473588386659 data/examplemod/neoforge/biome_modifier/add_nether_bismuth_ore.json
 92dd4c8e0786ed875341867d362b11877420f6cd data/examplemod/neoforge/biome_modifier/add_tree_bloodwood.json
+b9a855dc1345203a44335e3b59464b08bcb89f5f data/examplemod/neoforge/biome_modifier/spawn_gecko.json
 17de166d5f5df1bcc0e4dd6f6c90fc3789659981 data/examplemod/trim_material/bismuth.json
 579b7bd1607a8197783de7e10f2401b371184565 data/examplemod/trim_pattern/kaupen.json
 713f7d7a0823862cc6c700721888fa55c35aa445 data/examplemod/worldgen/configured_feature/bismuth_ore.json
