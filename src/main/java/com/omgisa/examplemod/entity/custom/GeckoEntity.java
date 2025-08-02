@@ -22,6 +22,8 @@ import net.minecraft.world.level.ServerLevelAccessor;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
+import java.util.Objects;
+
 public class GeckoEntity extends Animal {
     private static final EntityDataAccessor<Integer> VARIANT = SynchedEntityData.defineId(GeckoEntity.class, EntityDataSerializers.INT);
 
@@ -61,7 +63,10 @@ public class GeckoEntity extends Animal {
 
     @Override
     public @Nullable AgeableMob getBreedOffspring(@NotNull ServerLevel level, @NotNull AgeableMob otherParent) {
-        return ModEntities.GECKO.get().create(level);
+        GeckoVariant variant = Util.getRandom(GeckoVariant.values(), this.random);
+        GeckoEntity offspring = ModEntities.GECKO.get().create(level);
+        Objects.requireNonNull(offspring).setVariant(variant);
+        return offspring;
     }
 
     private void setupAnimationStates() {
