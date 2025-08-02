@@ -1,4 +1,4 @@
-// 1.21.1	2025-07-27T12:26:50.0634452	Item Models: examplemod
+// 1.21.1	2025-08-01T21:38:22.3810288	Item Models: examplemod
 c92020e3eb11184a474f9840a139bc0913a24911 assets/examplemod/models/item/bar_brawl_music_disc.json
 01345df039e3ae16796848b48bf1c4ef6ef9ef4e assets/examplemod/models/item/bismuth.json
 024ca2454650bce30ea6f0356a8f281a248e72c1 assets/examplemod/models/item/bismuth_axe.json
@@ -60,6 +60,7 @@ bb44c49881876249abd2d003b32498b632624794 assets/examplemod/models/item/bloodwood
 8f7a57c36c5d7632811bd9690b1e20a6cb9da6d4 assets/examplemod/models/item/chisel.json
 6df3ca80a8e9d2a3f3a6bc2d7910c61fd2696b2b assets/examplemod/models/item/chisel_used.json
 aaafe8f427d620f749f025727985159dc1835cb3 assets/examplemod/models/item/frostfire_ice.json
+63ec6c618a3a23eab4cab9c52d7d3250de9b516e assets/examplemod/models/item/gecko_spawn_egg.json
 864dd6c0bd42584ba80537a52ede0f4676c83b30 assets/examplemod/models/item/goji_berries.json
 c4505fcfc8b447bca4269e9e0c2cba4c8c30cf5d assets/examplemod/models/item/kaupen_armor_trim_smithing_template.json
 f347fa84e85b6a9ea883f5f60a32df1389d98dcc assets/examplemod/models/item/radish.json

@@ -5,11 +5,14 @@ import com.omgisa.examplemod.block.ModBlocks;
 import com.omgisa.examplemod.component.ModDataComponents;
 import com.omgisa.examplemod.effect.ModEffects;
 import com.omgisa.examplemod.enchantment.ModEnchantmentEffects;
+import com.omgisa.examplemod.entity.ModEntities;
+import com.omgisa.examplemod.entity.client.GeckoRenderer;
 import com.omgisa.examplemod.item.ModCreativeModeTabs;
 import com.omgisa.examplemod.item.ModItems;
 import com.omgisa.examplemod.potion.ModPotions;
 import com.omgisa.examplemod.sound.ModSounds;
 import com.omgisa.examplemod.util.ModItemProperties;
+import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.IEventBus;
@@ -50,24 +53,23 @@ public class ExampleMod {
 
         // Register the items
         ModItems.register(modEventBus);
-
         // Register the blocks
         ModBlocks.register(modEventBus);
 
         // Register the data components
         ModDataComponents.register(modEventBus);
-
         // Register the effects
         ModEffects.register(modEventBus);
 
         // Register the potions
         ModPotions.register(modEventBus);
-
         // Register the sounds
         ModSounds.register(modEventBus);
 
         // Register the entity enchantment effects
         ModEnchantmentEffects.register(modEventBus);
+        // Register the entity types
+        ModEntities.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -105,6 +107,8 @@ public class ExampleMod {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
             ModItemProperties.addCustomItemProperties();
+
+            EntityRenderers.register(ModEntities.GECKO.get(), GeckoRenderer::new);
         }
     }
 }

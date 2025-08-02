@@ -2,6 +2,7 @@ package com.omgisa.examplemod.item;
 
 import com.omgisa.examplemod.ExampleMod;
 import com.omgisa.examplemod.block.ModBlocks;
+import com.omgisa.examplemod.entity.ModEntities;
 import com.omgisa.examplemod.item.custom.ChiselItem;
 import com.omgisa.examplemod.item.custom.FuelItem;
 import com.omgisa.examplemod.item.custom.HammerItem;
@@ -11,6 +12,7 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.*;
 import net.neoforged.bus.api.IEventBus;
+import net.neoforged.neoforge.common.DeferredSpawnEggItem;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import org.jetbrains.annotations.NotNull;
@@ -80,6 +82,8 @@ public class ModItems {
     public static final DeferredItem<Item> GOJI_BERRIES = ITEMS.register("goji_berries",
                                                                          () -> new ItemNameBlockItem(ModBlocks.GOJI_BERRY_BUSH.get(), new Item.Properties().food(ModFoodProperties.GOJI_BERRY)));
 
+    public static final DeferredItem<Item> GECKO_SPAWN_EGG =
+            ITEMS.register("gecko_spawn_egg", () -> new DeferredSpawnEggItem(ModEntities.GECKO, 0x31AFAF, 0xFFAC00, new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
