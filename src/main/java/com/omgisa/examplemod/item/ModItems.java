@@ -3,10 +3,7 @@ package com.omgisa.examplemod.item;
 import com.omgisa.examplemod.ExampleMod;
 import com.omgisa.examplemod.block.ModBlocks;
 import com.omgisa.examplemod.entity.ModEntities;
-import com.omgisa.examplemod.item.custom.ChiselItem;
-import com.omgisa.examplemod.item.custom.FuelItem;
-import com.omgisa.examplemod.item.custom.HammerItem;
-import com.omgisa.examplemod.item.custom.ModArmorItem;
+import com.omgisa.examplemod.item.custom.*;
 import com.omgisa.examplemod.sound.ModSounds;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
@@ -84,6 +81,9 @@ public class ModItems {
 
     public static final DeferredItem<Item> GECKO_SPAWN_EGG =
             ITEMS.register("gecko_spawn_egg", () -> new DeferredSpawnEggItem(ModEntities.GECKO, 0x31AFAF, 0xFFAC00, new Item.Properties()));
+
+    public static final DeferredItem<Item> TOMAHAWK =
+            ITEMS.register("tomahawk", () -> new TomahawkItem(new Item.Properties().stacksTo(16)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

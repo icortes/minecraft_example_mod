@@ -36,6 +36,8 @@
 
   "item.examplemod.gecko_spawn_egg": "Gecko Spawn Egg",
 
+  "item.examplemod.tomahawk": "Tomahawk",
+
   "block.examplemod.bismuth_block": "Block of Bismuth",
   "block.examplemod.bismuth_ore": "Bismuth Ore",
   "block.examplemod.bismuth_deepslate_ore": "Bismuth Deepslate Ore",
@@ -95,5 +97,6 @@
   "trim_pattern.examplemod.kaupen": "Kaupen Armor Trim",
   "trim_pattern.examplemod.bismuth": "Bismuth Material",
 
-  "entity.mccourse.gecko": "Gecko"
+  "entity.mccourse.gecko": "Gecko",
+  "entity.mccourse.tomahawk": "Tomahawk"
 }

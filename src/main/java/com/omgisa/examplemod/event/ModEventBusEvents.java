@@ -3,6 +3,7 @@ package com.omgisa.examplemod.event;
 import com.omgisa.examplemod.ExampleMod;
 import com.omgisa.examplemod.entity.ModEntities;
 import com.omgisa.examplemod.entity.client.GeckoModel;
+import com.omgisa.examplemod.entity.client.TomahawkProjectileModel;
 import com.omgisa.examplemod.entity.custom.GeckoEntity;
 import net.minecraft.world.entity.SpawnPlacementTypes;
 import net.minecraft.world.entity.animal.Animal;
@@ -19,6 +20,7 @@ public class ModEventBusEvents {
     @SubscribeEvent
     public static void registerLayers(EntityRenderersEvent.RegisterLayerDefinitions event) {
         event.registerLayerDefinition(GeckoModel.LAYER_LOCATION, GeckoModel::createBodyLayer);
+        event.registerLayerDefinition(TomahawkProjectileModel.LAYER_LOCATION, TomahawkProjectileModel::createBodyLayer);
     }
 
     @SubscribeEvent

@@ -7,6 +7,7 @@ import com.omgisa.examplemod.effect.ModEffects;
 import com.omgisa.examplemod.enchantment.ModEnchantmentEffects;
 import com.omgisa.examplemod.entity.ModEntities;
 import com.omgisa.examplemod.entity.client.GeckoRenderer;
+import com.omgisa.examplemod.entity.client.TomahawkProjectileRenderer;
 import com.omgisa.examplemod.item.ModCreativeModeTabs;
 import com.omgisa.examplemod.item.ModItems;
 import com.omgisa.examplemod.potion.ModPotions;
@@ -109,6 +110,7 @@ public class ExampleMod {
             ModItemProperties.addCustomItemProperties();
 
             EntityRenderers.register(ModEntities.GECKO.get(), GeckoRenderer::new);
+            EntityRenderers.register(ModEntities.TOMAHAWK.get(), TomahawkProjectileRenderer::new);
         }
     }
 }
