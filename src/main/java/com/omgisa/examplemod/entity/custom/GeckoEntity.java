@@ -5,10 +5,13 @@ import com.omgisa.examplemod.entity.ModEntities;
 import com.omgisa.examplemod.item.ModItems;
 import net.minecraft.Util;
 import net.minecraft.nbt.CompoundTag;
+import net.minecraft.network.chat.Component;
 import net.minecraft.network.syncher.EntityDataAccessor;
 import net.minecraft.network.syncher.EntityDataSerializers;
 import net.minecraft.network.syncher.SynchedEntityData;
+import net.minecraft.server.level.ServerBossEvent;
 import net.minecraft.server.level.ServerLevel;
+import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.world.DifficultyInstance;
@@ -29,8 +32,9 @@ import java.util.Objects;
 
 public class GeckoEntity extends Animal {
     private static final EntityDataAccessor<Integer> VARIANT = SynchedEntityData.defineId(GeckoEntity.class, EntityDataSerializers.INT);
-
     public final AnimationState idleAnimationState = new AnimationState();
+    private final ServerBossEvent bossEvent =
+            new ServerBossEvent(Component.literal("Our Mighty Gecko"), ServerBossEvent.BossBarColor.GREEN, ServerBossEvent.BossBarOverlay.NOTCHED_10);
     private int idleAnimationTimeout = 0;
 
     public GeckoEntity(EntityType<? extends Animal> entityType, Level level) {
@@ -143,5 +147,25 @@ public class GeckoEntity extends Animal {
     @Override
     protected @Nullable SoundEvent getDeathSound() {
         return SoundEvents.BAT_DEATH;
+    }
+
+    /* BOSS BAR */
+
+    @Override
+    public void startSeenByPlayer(@NotNull ServerPlayer serverPlayer) {
+        super.startSeenByPlayer(serverPlayer);
+        this.bossEvent.addPlayer(serverPlayer);
+    }
+
+    @Override
+    public void stopSeenByPlayer(@NotNull ServerPlayer serverPlayer) {
+        super.stopSeenByPlayer(serverPlayer);
+        this.bossEvent.removePlayer(serverPlayer);
+    }
+
+    @Override
+    public void aiStep() {
+        super.aiStep();
+        this.bossEvent.setProgress(this.getHealth() / this.getMaxHealth());
     }
 }
