@@ -1,6 +1,7 @@
 package com.omgisa.examplemod.entity;
 
 import com.omgisa.examplemod.ExampleMod;
+import com.omgisa.examplemod.entity.custom.ChairEntity;
 import com.omgisa.examplemod.entity.custom.GeckoEntity;
 import com.omgisa.examplemod.entity.custom.TomahawkProjectileEntity;
 import net.minecraft.core.registries.BuiltInRegistries;
@@ -21,6 +22,9 @@ public class ModEntities {
 
     public static final Supplier<EntityType<TomahawkProjectileEntity>> TOMAHAWK =
             ENTITY_TYPES.register("tomahawk", () -> EntityType.Builder.<TomahawkProjectileEntity>of(TomahawkProjectileEntity::new, MobCategory.MISC).sized(0.5F, 1.15F).build("tomahawk"));
+
+    public static final Supplier<EntityType<ChairEntity>> CHAIR_ENTITY =
+            ENTITY_TYPES.register("chair_entity", () -> EntityType.Builder.of(ChairEntity::new, MobCategory.MISC).sized(0.5F, 0.5F).build("chair_entity"));
 
     public static void register(IEventBus eventBus) {
         ENTITY_TYPES.register(eventBus);

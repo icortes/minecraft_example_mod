@@ -6,6 +6,7 @@ import com.omgisa.examplemod.component.ModDataComponents;
 import com.omgisa.examplemod.effect.ModEffects;
 import com.omgisa.examplemod.enchantment.ModEnchantmentEffects;
 import com.omgisa.examplemod.entity.ModEntities;
+import com.omgisa.examplemod.entity.client.ChairRenderer;
 import com.omgisa.examplemod.entity.client.GeckoRenderer;
 import com.omgisa.examplemod.entity.client.TomahawkProjectileRenderer;
 import com.omgisa.examplemod.item.ModCreativeModeTabs;
@@ -111,6 +112,7 @@ public class ExampleMod {
 
             EntityRenderers.register(ModEntities.GECKO.get(), GeckoRenderer::new);
             EntityRenderers.register(ModEntities.TOMAHAWK.get(), TomahawkProjectileRenderer::new);
+            EntityRenderers.register(ModEntities.CHAIR_ENTITY.get(), ChairRenderer::new);
         }
     }
 }
