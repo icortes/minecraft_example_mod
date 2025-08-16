@@ -77,6 +77,8 @@
 
   "block.examplemod.chair": "Chair",
 
+  "entity.minecraft.villager.examplemod.kaupenger": "Kaupenger",
+
   "creativetab.examplemod.bismuth_items": "Bismuth Items",
   "creativetab.examplemod.bismuth_blocks": "Bismuth Blocks",
 

@@ -14,6 +14,7 @@ import com.omgisa.examplemod.item.ModItems;
 import com.omgisa.examplemod.potion.ModPotions;
 import com.omgisa.examplemod.sound.ModSounds;
 import com.omgisa.examplemod.util.ModItemProperties;
+import com.omgisa.examplemod.villager.ModVillagers;
 import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.neoforged.api.distmarker.Dist;
@@ -72,6 +73,9 @@ public class ExampleMod {
         ModEnchantmentEffects.register(modEventBus);
         // Register the entity types
         ModEntities.register(modEventBus);
+
+        // Register the villagers
+        ModVillagers.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);

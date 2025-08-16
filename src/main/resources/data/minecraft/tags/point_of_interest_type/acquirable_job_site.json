@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "examplemod:kaupen_poi",
+      "required": false
+    }
+  ]
+}
