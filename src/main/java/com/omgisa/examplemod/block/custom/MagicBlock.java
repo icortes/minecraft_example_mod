@@ -1,6 +1,6 @@
 package com.omgisa.examplemod.block.custom;
 
-import com.omgisa.examplemod.item.ModItems;
+import com.omgisa.examplemod.particle.ModParticles;
 import com.omgisa.examplemod.util.ModTags;
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;
@@ -30,17 +30,19 @@ public class MagicBlock extends Block {
 
     @Override
     protected @NotNull InteractionResult useWithoutItem(@NotNull BlockState state, Level level, @NotNull BlockPos pos, @NotNull Player player, @NotNull BlockHitResult hitResult) {
+        level.addParticle(ModParticles.BISMUTH_PARTICLES.get(), pos.getX() + 0.5, pos.getY() + 1.0, pos.getZ() + 0.5, 0.0, 1, 0.0);
+
         level.playSound(player, pos, SoundEvents.AMETHYST_CLUSTER_PLACE, SoundSource.BLOCKS, 1.0F, 1.0F);
         return InteractionResult.SUCCESS;
     }
 
     @Override
     public void stepOn(@NotNull Level level, @NotNull BlockPos pos, @NotNull BlockState state, @NotNull Entity entity) {
-        if(entity instanceof ItemEntity itemEntity){
-            if(isValidItem(itemEntity.getItem())) {
+        if (entity instanceof ItemEntity itemEntity) {
+            if (isValidItem(itemEntity.getItem())) {
                 itemEntity.setItem(new ItemStack(Items.DIAMOND, itemEntity.getItem().getCount()));
             }
-            if(itemEntity.getItem().getItem() == Items.DANDELION){
+            if (itemEntity.getItem().getItem() == Items.DANDELION) {
                 itemEntity.setItem(new ItemStack(Items.WITHER_ROSE, itemEntity.getItem().getCount()));
             }
         }

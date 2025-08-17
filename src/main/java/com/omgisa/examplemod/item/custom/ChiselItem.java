@@ -2,6 +2,7 @@ package com.omgisa.examplemod.item.custom;
 
 import com.omgisa.examplemod.block.ModBlocks;
 import com.omgisa.examplemod.component.ModDataComponents;
+import com.omgisa.examplemod.particle.ModParticles;
 import com.omgisa.examplemod.sound.ModSounds;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.core.particles.BlockParticleOption;
@@ -62,6 +63,12 @@ public class ChiselItem extends Item {
                 ((ServerLevel) level).sendParticles(ParticleTypes.DOLPHIN,
                                                     context.getClickedPos().getX() + 0.5,
                                                     context.getClickedPos().getY() + 1.5,
+                                                    context.getClickedPos().getZ() + 0.5,
+                                                    5, 0, 0, 0, 3);
+
+                ((ServerLevel) level).sendParticles(ModParticles.BISMUTH_PARTICLES.get(),
+                                                    context.getClickedPos().getX() + 0.5,
+                                                    context.getClickedPos().getY() + 1.0,
                                                     context.getClickedPos().getZ() + 0.5,
                                                     5, 0, 0, 0, 3);
 
