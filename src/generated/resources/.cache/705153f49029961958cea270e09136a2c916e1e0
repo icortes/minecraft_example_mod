@@ -1,0 +1,6 @@
+// 1.21.1	2025-08-17T15:31:41.4194333	Global Loot Modifiers : examplemod
+62999d8b7a693b3bab89d2c2be59e9db42720262 data/examplemod/loot_modifiers/berry_from_creeper.json
+994e8e4ece49e02c0016264e120a1d955cd453e3 data/examplemod/loot_modifiers/chisel_from_jungle_temple.json
+5af09b3957b6611f013f941b07cd67ff4326d255 data/examplemod/loot_modifiers/radish_seeds_to_short_grass.json
+bf145090fe471c49859f8ea0f20f50552c931169 data/examplemod/loot_modifiers/radish_seeds_to_tall_grass.json
+9eb0e646181e9a80c354ffd55fd6a40f58583090 data/neoforge/loot_modifiers/global_loot_modifiers.json

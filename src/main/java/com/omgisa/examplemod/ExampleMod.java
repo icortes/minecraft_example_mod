@@ -11,6 +11,7 @@ import com.omgisa.examplemod.entity.client.GeckoRenderer;
 import com.omgisa.examplemod.entity.client.TomahawkProjectileRenderer;
 import com.omgisa.examplemod.item.ModCreativeModeTabs;
 import com.omgisa.examplemod.item.ModItems;
+import com.omgisa.examplemod.loot.ModLootModifiers;
 import com.omgisa.examplemod.particle.BismuthParticles;
 import com.omgisa.examplemod.particle.ModParticles;
 import com.omgisa.examplemod.potion.ModPotions;
@@ -82,6 +83,9 @@ public class ExampleMod {
 
         // Register the particles
         ModParticles.register(modEventBus);
+
+        // Register the mod loot modifiers
+        ModLootModifiers.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);

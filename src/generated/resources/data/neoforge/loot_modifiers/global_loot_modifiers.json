@@ -1,0 +1,9 @@
+{
+  "entries": [
+    "examplemod:radish_seeds_to_short_grass",
+    "examplemod:radish_seeds_to_tall_grass",
+    "examplemod:chisel_from_jungle_temple",
+    "examplemod:berry_from_creeper"
+  ],
+  "replace": false
+}

@@ -1,4 +1,4 @@
-// 1.21.1	2025-07-27T12:23:29.4798313	Loot Tables
+// 1.21.1	2025-08-17T15:31:41.4174362	Loot Tables
 03b7b52672965f4efe0978334de07a8603baabd9 data/examplemod/loot_table/blocks/bismuth_block.json
 90f9faf479169b8166b137f8ccf76a9b1bdd46c3 data/examplemod/loot_table/blocks/bismuth_button.json
 cb97595f75e916d8f96e4498015d03ee94e37bd5 data/examplemod/loot_table/blocks/bismuth_deepslate_ore.json
@@ -19,6 +19,7 @@ b9388c1bd5fad0adeff2272fed944a2a5458f765 data/examplemod/loot_table/blocks/blood
 d03d6493d1c0051b23ba5e27b4020734a17e6e74 data/examplemod/loot_table/blocks/bloodwood_planks.json
 511d19f7530214b69a8c2f62bb418b04515296c5 data/examplemod/loot_table/blocks/bloodwood_sapling.json
 ffa8be90c95895d6d1f9c315c394bc65315593c7 data/examplemod/loot_table/blocks/bloodwood_wood.json
+d3a594f2adceda62729c555d78dfb9b057cbeb8b data/examplemod/loot_table/blocks/chair.json
 45a2b889d71239d6d6de3c286f962b035f287135 data/examplemod/loot_table/blocks/goji_berry_bush.json
 e630a46f74ebbdfdca7afa1b922ad31b65d8a399 data/examplemod/loot_table/blocks/magic_block.json
 42a08ae694b7835dbd4e42e883296a77ca149b84 data/examplemod/loot_table/blocks/radish_crop.json
