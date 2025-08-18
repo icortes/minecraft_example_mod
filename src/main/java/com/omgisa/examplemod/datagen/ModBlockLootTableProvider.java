@@ -97,8 +97,10 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
 
         this.add(ModBlocks.BLOODWOOD_LEAVES.get(),
                  block -> createLeavesDrops(block, ModBlocks.BLOODWOOD_SAPLING.get(), NORMAL_LEAVES_SAPLING_CHANCES));
-        
+
         this.dropSelf(ModBlocks.CHAIR.get());
+        this.dropSelf(ModBlocks.PEDESTAL.get());
+        this.dropSelf(ModBlocks.GROWTH_CHAMBER.get());
     }
 
     /**

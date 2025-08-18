@@ -1,6 +1,7 @@
 package com.omgisa.examplemod.screen;
 
 import com.omgisa.examplemod.ExampleMod;
+import com.omgisa.examplemod.screen.custom.GrowthChamberMenu;
 import com.omgisa.examplemod.screen.custom.PedestalMenu;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.inventory.AbstractContainerMenu;
@@ -15,9 +16,6 @@ public class ModMenuTypes {
     public static final DeferredRegister<MenuType<?>> MENUS =
             DeferredRegister.create(Registries.MENU, ExampleMod.MOD_ID);
 
-    public static final DeferredHolder<MenuType<?>, MenuType<PedestalMenu>> PEDESTAL_MENU =
-            registerMenuType("pedestal_menu", PedestalMenu::new);
-
     public static <T extends AbstractContainerMenu> DeferredHolder<MenuType<?>, MenuType<T>> registerMenuType(String name, IContainerFactory<T> factory) {
         return MENUS.register(name, () -> IMenuTypeExtension.create(factory));
     }
@@ -25,4 +23,10 @@ public class ModMenuTypes {
     public static void register(IEventBus eventBus) {
         MENUS.register(eventBus);
     }
+
+    public static final DeferredHolder<MenuType<?>, MenuType<GrowthChamberMenu>> GROWTH_CHAMBER_MENU =
+            registerMenuType("growth_chamber_menu", GrowthChamberMenu::new);
+
+    public static final DeferredHolder<MenuType<?>, MenuType<PedestalMenu>> PEDESTAL_MENU =
+            registerMenuType("pedestal_menu", PedestalMenu::new);
 }

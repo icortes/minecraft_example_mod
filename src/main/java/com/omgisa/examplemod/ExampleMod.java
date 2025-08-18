@@ -18,6 +18,7 @@ import com.omgisa.examplemod.particle.BismuthParticles;
 import com.omgisa.examplemod.particle.ModParticles;
 import com.omgisa.examplemod.potion.ModPotions;
 import com.omgisa.examplemod.screen.ModMenuTypes;
+import com.omgisa.examplemod.screen.custom.GrowthChamberScreen;
 import com.omgisa.examplemod.screen.custom.PedestalScreen;
 import com.omgisa.examplemod.sound.ModSounds;
 import com.omgisa.examplemod.util.ModItemProperties;
@@ -153,6 +154,7 @@ public class ExampleMod {
         @SubscribeEvent
         public static void registerScreens(RegisterMenuScreensEvent event) {
             event.register(ModMenuTypes.PEDESTAL_MENU.get(), PedestalScreen::new);
+            event.register(ModMenuTypes.GROWTH_CHAMBER_MENU.get(), GrowthChamberScreen::new);
         }
     }
 }

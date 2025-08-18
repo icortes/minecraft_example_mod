@@ -1,4 +1,4 @@
-// 1.21.1	2025-07-27T12:30:10.2556135	Block States: examplemod
+// 1.21.1	2025-08-18T15:06:51.1045421	Block States: examplemod
 489238cc233b14679e40d0be34f9a79939b2eddc assets/examplemod/blockstates/bismuth_block.json
 66b7979b5701ab0642cf00b7cab7f2d9043aaded assets/examplemod/blockstates/bismuth_button.json
 508a42fe8d464cc4cf508c60dd326d244effe3b7 assets/examplemod/blockstates/bismuth_deepslate_ore.json
@@ -20,6 +20,7 @@ b39eb803637f8b649361110e375ff18363a75c8e assets/examplemod/blockstates/bloodwood
 68b7ceee5c4d555c8bb3babcdc1ec4e6f2b20c01 assets/examplemod/blockstates/bloodwood_sapling.json
 244089d61260a968a1872a3fef94a629bf50c017 assets/examplemod/blockstates/bloodwood_wood.json
 59ff85fb5305a4c05a6dc85502f818d58cba0745 assets/examplemod/blockstates/goji_berry_bush.json
+ccabe7a43d3564c4956ce2f7696e49abf7647cde assets/examplemod/blockstates/growth_chamber.json
 daee5a96fab483ecb507396bf81edaf010d93a66 assets/examplemod/blockstates/magic_block.json
 e33d7229146ce98eedb65b45f8c65e27bb356068 assets/examplemod/blockstates/radish_crop.json
 70876a0c03e266831db16146306e9c88bcb77a1c assets/examplemod/blockstates/stripped_bloodwood_log.json
@@ -71,6 +72,7 @@ c0f7e48532c83ade34e16802c53ea058a1822163 assets/examplemod/models/block/bloodwoo
 b68efb4963e8a5ea7bcb695d4364cf515ea3bde0 assets/examplemod/models/block/goji_berry_bush_stage1.json
 86db1f347aef1e9487d369fe9fe1cc9bbac787d3 assets/examplemod/models/block/goji_berry_bush_stage2.json
 4f963ca1e96437dc4626ec61461429a431ad8f04 assets/examplemod/models/block/goji_berry_bush_stage3.json
+e02774772239d22d9bf07951405391e66e7b50a7 assets/examplemod/models/block/growth_chamber.json
 16efe3a312bb0d01be5a9fae5a4855778ce4e223 assets/examplemod/models/block/magic_block.json
 c1badc9b98e4f32adc136303e89c1fe56ee74cbf assets/examplemod/models/block/radish_crop_stage0.json
 855cd90c3a46fda9ea671582c999a7d5a1b30894 assets/examplemod/models/block/radish_crop_stage1.json
@@ -95,6 +97,7 @@ a951c2f590516cca74226033460c3a1cc442d68f assets/examplemod/models/item/bismuth_s
 390cbfb9fc083997495ea7da6d60a1048fc31bd3 assets/examplemod/models/item/bloodwood_log.json
 985beddba61cb09cad41f1f474f140f5dff14588 assets/examplemod/models/item/bloodwood_planks.json
 038077906218e970f731bb0d05a5b0efd1c774a6 assets/examplemod/models/item/bloodwood_wood.json
+37f80a54f759206a944f46ae2d37516eea01641c assets/examplemod/models/item/growth_chamber.json
 01284c3e2113f5761384eeff5b9aeca44a96bd5e assets/examplemod/models/item/magic_block.json
 862ace695b538d524df12456ba3ff29039e8e202 assets/examplemod/models/item/stripped_bloodwood_log.json
 02517da3edd736700c675fc9908405c774aad490 assets/examplemod/models/item/stripped_bloodwood_wood.json
