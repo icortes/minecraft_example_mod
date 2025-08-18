@@ -3,10 +3,13 @@ package com.omgisa.examplemod.block.custom;
 import com.mojang.serialization.MapCodec;
 import com.omgisa.examplemod.block.entity.PedestalBlockEntity;
 import net.minecraft.core.BlockPos;
+import net.minecraft.network.chat.Component;
+import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.ItemInteractionResult;
+import net.minecraft.world.SimpleMenuProvider;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.BlockGetter;
@@ -68,6 +71,11 @@ public class PedestalBlock extends BaseEntityBlock {
                                                        @NotNull BlockPos pos, @NotNull Player player,
                                                        @NotNull InteractionHand hand, @NotNull BlockHitResult hitResult) {
         if (level.getBlockEntity(pos) instanceof PedestalBlockEntity pedestalBlockEntity) {
+            if (player.isCrouching() && !level.isClientSide()) {
+                ((ServerPlayer) player).openMenu(new SimpleMenuProvider(pedestalBlockEntity, Component.literal("Pedestal")), pos);
+                return ItemInteractionResult.SUCCESS;
+            }
+
             if (pedestalBlockEntity.inventory.getStackInSlot(0).isEmpty() && !stack.isEmpty()) {
                 pedestalBlockEntity.inventory.insertItem(0, stack.copy(), false);
                 stack.shrink(1);

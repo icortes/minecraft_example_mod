@@ -17,6 +17,8 @@ import com.omgisa.examplemod.loot.ModLootModifiers;
 import com.omgisa.examplemod.particle.BismuthParticles;
 import com.omgisa.examplemod.particle.ModParticles;
 import com.omgisa.examplemod.potion.ModPotions;
+import com.omgisa.examplemod.screen.ModMenuTypes;
+import com.omgisa.examplemod.screen.custom.PedestalScreen;
 import com.omgisa.examplemod.sound.ModSounds;
 import com.omgisa.examplemod.util.ModItemProperties;
 import com.omgisa.examplemod.villager.ModVillagers;
@@ -32,6 +34,7 @@ import net.neoforged.fml.config.ModConfig;
 import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
 import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.neoforged.neoforge.client.event.EntityRenderersEvent;
+import net.neoforged.neoforge.client.event.RegisterMenuScreensEvent;
 import net.neoforged.neoforge.client.event.RegisterParticleProvidersEvent;
 import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
@@ -93,6 +96,8 @@ public class ExampleMod {
         // Register the block entities
         ModBlockEntities.register(modEventBus);
 
+        ModMenuTypes.register(modEventBus);
+
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
 
@@ -143,6 +148,11 @@ public class ExampleMod {
         @SubscribeEvent
         public static void registerBER(EntityRenderersEvent.RegisterRenderers event) {
             event.registerBlockEntityRenderer(ModBlockEntities.PEDESTAL_BE.get(), PedestalBlockEntityRenderer::new);
+        }
+
+        @SubscribeEvent
+        public static void registerScreens(RegisterMenuScreensEvent event) {
+            event.register(ModMenuTypes.PEDESTAL_MENU.get(), PedestalScreen::new);
         }
     }
 }
