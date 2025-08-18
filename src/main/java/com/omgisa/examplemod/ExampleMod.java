@@ -17,6 +17,7 @@ import com.omgisa.examplemod.loot.ModLootModifiers;
 import com.omgisa.examplemod.particle.BismuthParticles;
 import com.omgisa.examplemod.particle.ModParticles;
 import com.omgisa.examplemod.potion.ModPotions;
+import com.omgisa.examplemod.recipe.ModRecipes;
 import com.omgisa.examplemod.screen.ModMenuTypes;
 import com.omgisa.examplemod.screen.custom.GrowthChamberScreen;
 import com.omgisa.examplemod.screen.custom.PedestalScreen;
@@ -98,6 +99,9 @@ public class ExampleMod {
         ModBlockEntities.register(modEventBus);
 
         ModMenuTypes.register(modEventBus);
+
+        // Register the recipe serializers
+        ModRecipes.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);

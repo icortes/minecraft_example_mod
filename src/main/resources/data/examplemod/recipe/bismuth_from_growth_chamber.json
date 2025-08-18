@@ -1,0 +1,9 @@
+{
+  "type": "examplemod:growth_chamber",
+  "ingredient": {
+    "item": "examplemod:raw_bismuth"
+  },
+  "result": {
+    "id": "examplemod:bismuth"
+  }
+}
