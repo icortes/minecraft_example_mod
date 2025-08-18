@@ -2,6 +2,7 @@ package com.omgisa.examplemod;
 
 import com.mojang.logging.LogUtils;
 import com.omgisa.examplemod.block.ModBlocks;
+import com.omgisa.examplemod.block.entity.ModBlockEntities;
 import com.omgisa.examplemod.component.ModDataComponents;
 import com.omgisa.examplemod.effect.ModEffects;
 import com.omgisa.examplemod.enchantment.ModEnchantmentEffects;
@@ -86,6 +87,9 @@ public class ExampleMod {
 
         // Register the mod loot modifiers
         ModLootModifiers.register(modEventBus);
+
+        // Register the block entities
+        ModBlockEntities.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
