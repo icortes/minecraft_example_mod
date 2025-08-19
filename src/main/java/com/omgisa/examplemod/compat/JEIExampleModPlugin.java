@@ -1,16 +1,19 @@
 package com.omgisa.examplemod.compat;
 
 import com.omgisa.examplemod.ExampleMod;
+import com.omgisa.examplemod.block.ModBlocks;
 import com.omgisa.examplemod.recipe.GrowthChamberRecipe;
 import com.omgisa.examplemod.recipe.ModRecipes;
 import com.omgisa.examplemod.screen.custom.GrowthChamberScreen;
 import mezz.jei.api.IModPlugin;
 import mezz.jei.api.JeiPlugin;
 import mezz.jei.api.registration.IGuiHandlerRegistration;
+import mezz.jei.api.registration.IRecipeCatalystRegistration;
 import mezz.jei.api.registration.IRecipeCategoryRegistration;
 import mezz.jei.api.registration.IRecipeRegistration;
 import net.minecraft.client.Minecraft;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.crafting.RecipeHolder;
 import net.minecraft.world.item.crafting.RecipeManager;
 import org.jetbrains.annotations.NotNull;
@@ -42,5 +45,10 @@ public class JEIExampleModPlugin implements IModPlugin {
     @Override
     public void registerGuiHandlers(@NotNull IGuiHandlerRegistration registration) {
         registration.addRecipeClickArea(GrowthChamberScreen.class, 74, 30, 22, 20, GrowthChamberRecipeCategory.GROWTH_CHAMBER_RECIPE_RECIPE_TYPE);
+    }
+
+    @Override
+    public void registerRecipeCatalysts(IRecipeCatalystRegistration registration) {
+        registration.addRecipeCatalyst(new ItemStack(ModBlocks.GROWTH_CHAMBER.asItem()), GrowthChamberRecipeCategory.GROWTH_CHAMBER_RECIPE_RECIPE_TYPE);
     }
 }
